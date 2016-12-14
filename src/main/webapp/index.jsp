@@ -52,6 +52,7 @@ $(document).ready(function() {
 		navLinks: true, // can click day/week names to navigate views
 		editable: true,
 		eventLimit: true, // allow "more" link when too many events
+		firstDay: 1,
 		events: [
 			{
 				title: 'All Day Event',
@@ -107,7 +108,27 @@ $(document).ready(function() {
 				url: 'http://google.com/',
 				start: defaultMonth + '-28'
 			}
-		]
+		],
+	    eventDrop: function(event, delta, revertFunc) {
+
+	        alert(event.title + " was dropped on " + event.start.format());
+
+	        if (!confirm("Are you sure about this change?")) {
+	            revertFunc();
+	        }
+
+	    },
+	    eventClick: function(calEvent, jsEvent, view) {
+			var info = 'Event: ' + calEvent.title + ' - ' + 'Coordinates: ' + jsEvent.pageX + ',' + jsEvent.pageY + ' - ' + 'View: ' + view.name;
+	        alert(info);
+	        // change the border color just for fun
+	        $(this).css('border-color', 'red');
+
+	    },
+	    navLinkDayClick: function(date, jsEvent) {
+	        console.log('day', date.format()); // date is a moment
+	        console.log('coords', jsEvent.pageX, jsEvent.pageY);
+	    }
 	});
 	
 });
