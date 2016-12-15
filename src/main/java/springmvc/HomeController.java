@@ -11,16 +11,25 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @RequestMapping(value="home")
 public class HomeController {
 
-	@ResponseBody
 	@RequestMapping(method={RequestMethod.GET})
 	public Object index(){
 		
 		return "index";
 	}
-	@ResponseBody
+	
 	@RequestMapping(value="test", method={RequestMethod.GET})
 	public Object test(){
 		
 		return "test";
+	}
+	
+	@RequestMapping(value="fullcalendar", method={RequestMethod.GET})
+	public Object fullCalendar(){
+		return "fullcalendar";
+	}
+	
+	@RequestMapping(value="uicalendar", method={RequestMethod.GET})
+	public Object uiCalendar(){
+		return "uicalendar";
 	}
 }
