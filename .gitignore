@@ -45,3 +45,37 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst
+target/maven-archiver/pom.properties
+target/m2e-wtp/web-resources/META-INF/maven/vnt/springmvc/pom.properties
+target/ang.calendar/WEB-INF/web.xml
+target/m2e-wtp/web-resources/META-INF/maven/vnt/springmvc/pom.xml
+target/ang.calendar/WEB-INF/views/index.jsp
+target/ang.calendar/WEB-INF/lib/spring-core-4.1.6.RELEASE.jar
+target/ang.calendar/WEB-INF/lib/commons-logging-1.2.jar
+target/ang.calendar/static/test.txt
+target/ang.calendar/WEB-INF/dispatcher-servlet.xml
+target/ang.calendar/WEB-INF/lib/spring-beans-4.1.6.RELEASE.jar
+target/m2e-wtp/web-resources/META-INF/MANIFEST.MF
+target/ang.calendar/WEB-INF/lib/spring-web-4.1.6.RELEASE.jar
+target/ang.calendar/WEB-INF/lib/aopalliance-1.0.jar
+target/ang.calendar.war
+target/ang.calendar/WEB-INF/lib/spring-context-4.1.6.RELEASE.jar
+target/classes/springmvc/HomeController.class
+target/ang.calendar/WEB-INF/views/test.jsp
+target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst
+target/ang.calendar/WEB-INF/lib/spring-webmvc-4.1.6.RELEASE.jar
+target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
+target/ang.calendar/WEB-INF/lib/spring-aop-4.1.6.RELEASE.jar
+.settings/org.eclipse.wst.validation.prefs
+.settings/org.eclipse.m2e.core.prefs
+.settings/org.eclipse.jdt.core.prefs
+.settings/org.eclipse.wst.jsdt.ui.superType.container
+.settings/org.eclipse.core.resources.prefs
+.settings/org.eclipse.wst.jsdt.ui.superType.name
+target/ang.calendar/WEB-INF/classes/springmvc/HomeController.class
+.settings/org.eclipse.wst.common.project.facet.core.xml
+.settings/.jsdtscope
+target/ang.calendar/index.jsp
+.settings/org.eclipse.wst.common.component
+target/ang.calendar/WEB-INF/lib/spring-expression-4.1.6.RELEASE.jar
