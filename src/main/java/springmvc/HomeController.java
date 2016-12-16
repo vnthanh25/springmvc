@@ -32,4 +32,9 @@ public class HomeController {
 	public Object uiCalendar(){
 		return "uicalendar";
 	}
+	
+	@RequestMapping(value="googlecalendar", method={RequestMethod.GET})
+	public Object googleCalendar(){
+		return "googlecalendar";
+	}
 }

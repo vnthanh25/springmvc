@@ -19,7 +19,9 @@
 <h2>Index</h2>
 
 <a href='<%=request.getContextPath()%>/home/fullcalendar'>fullcalendar</a>
-
+<br/>
 <a href='<%=request.getContextPath()%>/home/uicalendar'>uicalendar</a>
+<br/>
+<a href='<%=request.getContextPath()%>/home/googlecalendar'>googlecalendar</a>
 </body>
 </html>
